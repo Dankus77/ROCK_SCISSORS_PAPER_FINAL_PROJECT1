@@ -78,7 +78,7 @@ main {
 }
 
 main::before{
-    background-image: url('/rock-paper-scissors-master/images/bg-triangle.svg');
+    background-image: url('images/bg-triangle.svg');
     content: '';
     background-repeat: no-repeat;
     background-size: cover;
