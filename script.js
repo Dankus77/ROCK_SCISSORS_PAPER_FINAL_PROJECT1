@@ -75,7 +75,7 @@ function updateSelection(selectionEl, choice){
 
     const img = selectionEl.querySelector('img');
     selectionEl.classList.add(`${choice}_btn`);
-    img.src = `./rock-paper-scissors-master/images/icon-${choice}.svg`;
+    img.src = `/rock-paper-scissors-master/rock-paper-scissors-master/images/icon-${choice}.svg`;
     img.alt = choice;
 }
 
