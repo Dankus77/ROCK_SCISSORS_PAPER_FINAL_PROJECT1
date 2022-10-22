@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Epilogue:wght@200;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                <span>ROCK</span>
+                <span>PAPER</span>
+                <span>SCISSORS</span>
+                <!--<span>LIZARD</span>
+                <span>SPOCK</span>-->
+            </h1>
+            <div class="score_container">
+                <h4>Score</h4>
+                <p id="score_number">0</p>
+            </div>
+        </header>
+        <main>
+            <button class="game_card paper_btn select" data-choice="paper"><span class="wrapper"><img src="/rock-paper-scissors-master/images/icon-paper.svg" alt="paper_icon"></span></button>
+            <button class="game_card scissors_btn select" data-choice="scissors"><span class="wrapper"><img src="/rock-paper-scissors-master/images/icon-scissors.svg" alt="scissors_icon"></span></button>
+            <button class="game_card rock_btn select" data-choice="rock"><span class="wrapper"><img src="/rock-paper-scissors-master/images/icon-rock.svg" alt="rock_icon"></span></button>
+            <!--<button class="game_card lizard_btn select" data-choice="lizard"><span class="wrapper"><img src="/rock-paper-scissors-master/images/icon-lizard.svg" alt="lizard_icon"></span></button>
+            <button class="game_card spock_btn select" data-choice="spock"><span class="wrapper"><img src="/rock-paper-scissors-master/images/icon-spock.svg" alt="spock_icon"></span></button>-->
+        </main>
+    
+        <div class="rules_modal" id="modal">
+            
+                <img src="/rock-paper-scissors-master/images/image-rules.svg" alt="rules">
+        <button id="close"><img src="/rock-paper-scissors-master/images/icon-close.svg" alt="close"></button>
+        </div> 
+        <button class="rules_btn" id="open">Rules</button>
+    </div>
+    <div class="selection">
+        <div>
+            <h2>You Picked</h2>
+          <button class="game_card paper_btn" id="user_select"><span class="wrapper"><img src="/rock-paper-scissors-master/images/icon-paper.svg" alt="paper_icon"></span></button> 
+        </div>
+        <div class="adjust">
+            <p class="grade">You <span id="outcome">win</span></p>
+            <button id="reset" class="reset_btn">Play Again</button>
+        </div>
+        <div>
+            <h2>The House Picked</h2>
+           <button class="game_card scissors_btn" id="comp_select"><span class="wrapper"><img src="/rock-paper-scissors-master/images/icon-scissors.svg" alt="scissors_icon"></span></button> 
+        </div>
+    
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
