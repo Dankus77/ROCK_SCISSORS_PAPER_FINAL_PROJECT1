@@ -248,8 +248,8 @@ transform: scale(1.4);
 }
 
 @media screen and (max-width: 450px){
-body {
-    
+    body {
+    min-height: 80vh;
 }
 
 
@@ -265,7 +265,7 @@ body {
 
     .container {
         position: relative;
-        bottom: -200px;
+        bottom: -30px;
         height: 800px;
     }
 
@@ -302,7 +302,7 @@ body {
     #score_number {
         font-size: 40px;
         position: relative;
-        left: -8px;
+        left: -20px;
         top: -7px;
     }
 
@@ -322,10 +322,10 @@ body {
 
     .selection{
         flex-wrap: nowrap;
-        top: -550px;
         width: 400px;
         height: 400px;
         position: relative;
+        top: -800px;
         right: -13px;
     }
 
@@ -347,6 +347,7 @@ body {
     }
 
     .rules_btn{
+        bottom: 100px;
         right: 45px;
         }
 
