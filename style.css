@@ -223,8 +223,9 @@ transform: scale(1.4);
 
 #close {
     position: absolute;
+    width: 19.09px;
     top: -80px;
-    right: 20px;
+    right: 30px;
 }
 
 .rules_modal button {
@@ -233,6 +234,17 @@ transform: scale(1.4);
     background-color: transparent;
     margin-top: 100px;
     transform: scale(1.4);
+}
+
+.rules_title {
+    color: hsl(229, 25%, 31%);
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    position: relative;
+    left: -120px;
+    top: -20px;
 }
 
 @media screen and (max-width: 450px){
@@ -357,10 +369,16 @@ body {
         top: 0;
     }
 
+    .rules_title {
+        position: relative;
+        left: 8px;
+        top: -80px;
+    }
+
     #close {
         position: absolute;
         bottom: -400px;
-        left: 20px;
+        left: 190px;
     }
 
 }
