@@ -364,9 +364,9 @@ transform: scale(1.4);
     }
 
     .rules_modal {
-        width: 40vh;
+        width: 50vh;
         height: 100vh;
-        left: 0;
+        left: 0px;
         top: 0;
     }
 
@@ -379,7 +379,7 @@ transform: scale(1.4);
     #close {
         position: absolute;
         bottom: -400px;
-        left: 190px;
+        left: 210px;
     }
 
 }
