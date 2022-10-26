@@ -12,7 +12,12 @@ let openModal = document.querySelector('#open');
 let modal = document.querySelector('#modal');
 let closeModal = document.querySelector('#close');
 let userChoice;
-let score = 0;
+let score = 12;
+
+function pickRandomChoice(){
+    return gameChoices[Math.floor(Math.random() * gameChoices.length)];
+}
+
 
 gameButtons.forEach(card =>{
     card.addEventListener('click', () =>{
@@ -79,7 +84,4 @@ function updateSelection(selectionEl, choice){
     img.alt = choice;
 }
 
-function pickRandomChoice(){
-    return gameChoices[Math.floor(Math.random() * gameChoices.length)];
-}
 
